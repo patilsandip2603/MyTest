@@ -1,4 +1,4 @@
-package configFile;
+package ConfigurationFileDemo.ConfigurationFile;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -8,7 +8,7 @@ import java.util.Properties;
 public class ConfigFileReader 
 {
 	Properties prop;
-	File path = new File("C:\\Users\\Swami\\eclipse-workspace\\ConfigurationFileDemo\\src\\test\\java\\config.properties"); 
+	File path = new File("C:\\Users\\Swami\\eclipse-workspace\\ConfigurationFile\\config.properties"); 
 	
 	ConfigFileReader() throws IOException
 	{
@@ -40,3 +40,4 @@ public class ConfigFileReader
 	
 
 }
+

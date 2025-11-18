@@ -1,4 +1,4 @@
-package ConfigurationFile.ConfigurationFileDemo;
+package ConfigurationFileDemo.ConfigurationFile;
 
 /**
  * Hello world!

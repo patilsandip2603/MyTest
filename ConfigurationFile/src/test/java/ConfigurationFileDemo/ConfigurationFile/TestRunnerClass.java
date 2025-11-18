@@ -1,17 +1,17 @@
-package configFile;
+package ConfigurationFileDemo.ConfigurationFile;
+
 
 import java.io.IOException;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class TestRunnerClass {
+
+public class TestRunnerClass 
+{
 
 	public static void main(String[] args) throws IOException, InterruptedException 
 	{
-	
 		WebDriverManager.chromedriver().setup();
 		
 		ChromeDriver driver = new ChromeDriver();
@@ -33,7 +33,7 @@ public class TestRunnerClass {
 				
 		Thread.sleep(5000);
 		driver.quit();
-		
+
 	}
 
 }
